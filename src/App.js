@@ -1,23 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          Coming Soon
+        </div>
+        <br />
+        <img src="./danger-keep-out.jpg" className="App-logo" alt="logo" />
+        <br />
+        <div>
+          &copy; 2019 Pahlawan Pte. Ltd.
+        </div>
+        <div>
+          <span style={{fontSize: '16px'}}>
+            For enquiries: <a href="mailto:pahlawanenquiry@gmail.com">pahlawanenquiry@gmail.com</a>
+          </span>
+        </div>
+        <div>
+          <span style={{fontSize: '16px'}}>
+            UEN: 201930010D
+          </span>
+          <br />
+          <span style={{fontSize: '16px'}}>
+            7, Mandai Link, #03-32, Mandai Connection, Singapore 728653
+          </span>
+        </div>
       </header>
     </div>
   );
