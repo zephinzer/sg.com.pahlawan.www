@@ -20,6 +20,9 @@ run: build
 		--publish 8080:8080 \
 		$(IMAGE_URL):latest
 
+deploy:
+	@npm run deploy
+
 publish: build
 	@docker tag $(IMAGE_URL):latest $(IMAGE_URL):$(TIMESTAMP)
 	@docker push $(IMAGE_URL):latest

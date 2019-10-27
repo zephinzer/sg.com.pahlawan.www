@@ -4,6 +4,10 @@
 
 # Development Runbook
 
+## Development
+
+The general rule of thumb is that things related to deployments should be run using the `make` tooling, and things related to development should be run using the `npm` scripts.
+
 ## Installing Dependencies
 
 You can either use `yarn` or `npm i`.
@@ -31,7 +35,7 @@ The website should be available at [http://localhost:5000](http://localhost:5000
 To deploy the website, simply run:
 
 ```sh
-npm run deploy;
+make deploy;
 ```
 
 # License
